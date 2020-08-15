@@ -1,7 +1,7 @@
 # myproject
 
 ## mySQL_counting
-获取mySQL数据，完成指定计算任务
+2019年7月编写，获取mySQL数据，完成指定计算任务
 
 ## paper_crawler
 2019年11月编写，用来爬取文献
