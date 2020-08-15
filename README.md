@@ -1,5 +1,11 @@
 # myproject
 
+## Keras_lianxi
+2019年1月，Keras神经网络练习
+
+## GOC_gurobi
+2019年1月，运用gurobi解决运筹学问题练习，JD车辆调度问题B榜
+
 ## mySQL_counting
 2019年7月编写，获取mySQL数据，完成指定计算任务
 
