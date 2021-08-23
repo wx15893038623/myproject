@@ -1,0 +1,190 @@
+[33mcommit 9d795311b0290629cd7e7270263b4940bc1a97b8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Atticus <728986439@qq.com>
+Date:   Thu Aug 12 10:10:01 2021 +0800
+
+    0812
+
+[33mcommit ab788d7905213496e668363d0f0bbdc2c979fcb2[m
+Author: Atticus <728986439@qq.com>
+Date:   Sun Aug 8 11:08:17 2021 +0800
+
+    0808
+
+[33mcommit bdd9bbe61e1c6c946d32883b70746bbd069d1481[m
+Author: Atticus <728986439@qq.com>
+Date:   Fri Aug 6 01:10:54 2021 +0800
+
+    0805
+
+[33mcommit df2996bfc5e831f2b429ba22d93c93df68210705[m
+Author: Atticus <728986439@qq.com>
+Date:   Wed Aug 4 20:53:35 2021 +0800
+
+    0804
+
+[33mcommit 93611dca0a9fad80bd29b3699ab744e71389b709[m
+Author: Atticus <728986439@qq.com>
+Date:   Tue Aug 3 22:49:38 2021 +0800
+
+    0803
+
+[33mcommit 97f3aa071846a4bdac94bf345c64b3573a562140[m
+Author: Atticus <728986439@qq.com>
+Date:   Tue Aug 3 22:41:59 2021 +0800
+
+    0803
+
+[33mcommit caeae2be2a584bb32d904d0ee76dd13e9c61e30e[m
+Author: Atticus <728986439@qq.com>
+Date:   Sat Jul 31 12:00:06 2021 +0800
+
+    0731
+
+[33mcommit 6b30f7b543e36b9db5cf0f253499d2b4cdc0d1cf[m
+Author: Atticus <728986439@qq.com>
+Date:   Wed Jul 28 10:10:28 2021 +0800
+
+    0728
+
+[33mcommit 74937d566bd217dbe0e3e16e94f02ada5b45e01b[m
+Author: Atticus <728986439@qq.com>
+Date:   Tue Jul 27 16:44:06 2021 +0800
+
+    0727
+
+[33mcommit 5239f885b49a04c2e938664a18e9018cb2a869b1[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sun Aug 16 13:28:32 2020 +0800
+
+    gaidong
+
+[33mcommit 75460c25cfa89cf0c5398710b77b26073cf7762c[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 23:46:58 2020 +0800
+
+    gaidong
+
+[33mcommit aecfada18cd7079d40046234e1c4f81e80084fe5[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 16:10:12 2020 +0800
+
+    create
+
+[33mcommit 49542c535eed84266fa04e269268f95fe4c76226[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:56:49 2020 +0800
+
+    gaidong
+
+[33mcommit 436a6aaa155cb42f4841c618a5638f3f48b48ffb[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:55:33 2020 +0800
+
+    create
+
+[33mcommit 84e5b304cd0df14e498cf22f9cc3b4e2b1658695[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:55:13 2020 +0800
+
+    gaidong
+
+[33mcommit 690c2b905bafb22b7de4a12fc0f6c978b364fe15[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:44:20 2020 +0800
+
+    create
+
+[33mcommit 443cd6d7b50fdb2c39408c0ff63059fb9bda6429[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:43:53 2020 +0800
+
+    gaidong
+
+[33mcommit 845f33c43794d4c611c0b044d3588d5bd87465fc[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:34:26 2020 +0800
+
+    del
+
+[33mcommit 20165e17db90b63c7e3ffad7bb1503992c1195c6[m
+Merge: c148843 39c16a4
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:25:02 2020 +0800
+
+    Merge branch 'master' of https://github.com/wx15893038623/myproject
+
+[33mcommit c1488430b456c69aef7491ffd24c4b297c7bea55[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:23:33 2020 +0800
+
+    create 1
+
+[33mcommit 3af759e8621946bf47ceb4107c74e4a9e979b3ff[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:22:58 2020 +0800
+
+    del 1
+
+[33mcommit a6b36ef5cf1bbe3e17b8670f69f53a8d6d547f8f[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:17:39 2020 +0800
+
+    create
+
+[33mcommit 39c16a447780205af578760d13e21d4fcd458852[m
+Author: Atticus D. Zhang <45538765+wx15893038623@users.noreply.github.com>
+Date:   Sat Aug 15 15:12:09 2020 +0800
+
+    Create README.md
+
+[33mcommit a01a5337645550dd8a274ae653e12d55a299bd58[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 15:08:21 2020 +0800
+
+    create 01
+
+[33mcommit c9d67df77833a37f001f75180afb4a91a5d77813[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 14:59:02 2020 +0800
+
+    del 1
+
+[33mcommit 833caf1ca07cd96deb3c1317afe292bd56547279[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 14:57:04 2020 +0800
+
+    create 1
+
+[33mcommit c61e6aef71af8c780d9881365ba209c1fad5c3b9[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 14:55:20 2020 +0800
+
+    del 01
+
+[33mcommit e0743fa252f7bf83608bd05d4b5b4da68aabc4c0[m
+Merge: b9bf69f cc563ec
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 14:54:02 2020 +0800
+
+    Merge branch 'master' of https://github.com/wx15893038623/myproject
+    
+    # Conflicts:
+    #       a.txt
+
+[33mcommit cc563ecf4785b390accee4b4cb39a79924f8c905[m
+Author: Atticus D. Zhang <45538765+wx15893038623@users.noreply.github.com>
+Date:   Sat Aug 15 14:52:29 2020 +0800
+
+    Update a.txt
+
+[33mcommit b9bf69f5461c1108eceb568dd4b9099a38b41283[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sat Aug 15 14:14:46 2020 +0800
+
+    pull
+
+[33mcommit 919146a8b2b34c036b8fb22ee90a68ae4dc389c8[m
+Author: wx15893038623 <728986439@qq.com>
+Date:   Sun Aug 9 22:32:42 2020 +0800
+
+    first commit
