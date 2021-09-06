@@ -1,0 +1,25 @@
+https://www.sciencedirect.com/search?qs=tunnel%3BWater%20leakage&articleTypes=FLA&publicationTitles=271466&years=2021&show=100
+
+
+link_list = browser.find_elements_by_xpath('//*[@class="DownloadPdf download-link-item"]/span/span/a')
+
+name_list = browser.find_elements_by_xpath('//*[@id="srp-results-list"]/ol/li/div/div[2]/h2/span')
+
+ele_link = []
+ele_fname = []
+for link in link_list: 
+    l = link.get_attribute('href')
+    ele_link.append(l)
+    ele_fname.append(l[l.index("pid=")+4:])
+
+ele_name = []
+for name in name_list: 
+    ele_name.append(name.text)
+
+data = {
+    'ele_link':ele_link,
+    'ele_fname':ele_fname,
+    'ele_name':ele_name
+}
+
+pd.DataFrame(data).to_excel('names.xlsx')
