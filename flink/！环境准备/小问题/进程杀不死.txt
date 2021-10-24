@@ -1,0 +1,2 @@
+查看父进程
+cat /proc/（进程号）/status

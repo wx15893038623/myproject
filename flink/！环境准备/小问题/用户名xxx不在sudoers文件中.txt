@@ -1,0 +1,4 @@
+sudo vi /etc/sudoers
+
+root    ALL=(ALL)       ALL
+atticus ALL=(ALL) NOPASSWD:ALL

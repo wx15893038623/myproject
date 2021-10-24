@@ -1,0 +1,7 @@
+ctrl + shift + p
+install
+install pakage
+sftp
+=====
+file->sftp->setup 设置地址、用户、密码
+file->sftp->browse 选中文件->edit

@@ -1,0 +1,11 @@
+hbase-env.sh
+export JAVA_HOME=/opt/module/jdk1.8.0_144
+export HBASE_MANAGES_ZK=false
+
+=======
+hbase-site.xml
+
+======
+软连接hadoop配置文件到hbase
+ln -s /opt/module/hadoop-2.7.2/etc/hadoop/core-site.xml /opt/module/hbase-1.3.1/conf/core-site.xml
+ln -s /opt/module/hadoop-2.7.2/etc/hadoop/hdfs-site.xml /opt/module/hbase-1.3.1/conf/hdfs-site.xml

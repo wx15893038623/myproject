@@ -1,0 +1,17 @@
+@echo off
+color 0a
+echo.------------------------------------
+echo.TODO:设置java环境变量
+echo.
+echo.------------------------------------
+::如果有的话，先删除JAVA_HOME
+wmic ENVIRONMENT where "name='JAVA_HOME'" delete
+::如果有的话，先删除ClASSPATH 
+wmic ENVIRONMENT where "name='CLASSPATH'" delete
+::创建JAVA_HOME VariableValue 后面是JDK的安装路径,自行更改
+ wmic ENVIRONMENT create name="JAVA_HOME",username="<system>",VariableValue="E:\Program Files\Java\jdk1.8.0_31"
+::增加PATH中关于java的环境变量
+ wmic ENVIRONMENT where "name='Path' and username='<system>'" set VariableValue="%Path%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin" 
+::创建CLASSPATH 此项可加可不加
+wmic ENVIRONMENT create name="CLASSPATH",username="<system>",VariableValue=".;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;" 
+pause

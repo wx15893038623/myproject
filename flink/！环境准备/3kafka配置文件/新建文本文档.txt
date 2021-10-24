@@ -1,0 +1,10 @@
+/opt/module/kafka/config/server.properties
+
+不能重复
+broker.id=0
+可删除topic
+delete.topic.enable=true
+数据存放地
+log.dirs=/opt/module/kafka/data
+zookeeper集群
+zookeeper.connect=hadoop101:2181,hadoop102:2181,hadoop103:2181

@@ -1,0 +1,39 @@
+         101         102         103
+hdfs  nn、dn  | dn         |    2nn、dn
+yarn  nm        |rm、nm  |  nm
+
+core-site.xml   ./etc/hadoop
+hdfs:
+hadoop-env.sh
+hdfs-site.xml
+yarn:
+yarn-env.sh
+yarn-site.xml
+mr:
+mapred-env.sh
+mapred-site.xml
+
+群起集群配置（设置好ssh后）
+./etc/hadoop/slaves
+增加内容（所有dn）：
+hadoop101
+hadoop102
+hadoop103
+群起命令：
+(101 102 103)rm -rf data/ logs/
+(101)bin/hdfs namenode -format
+(101)sbin/start-dfs.sh
+(102)sbin/start-yarn.sh
+测试：浏览器 hadoop101:50070
+
+===
+无法访问hadoop101:50070：
+
+[root@djt002 ~]# service iptables status
+[root@djt002 ~]# chkconfig iptables off
+//永久关闭防火墙
+[root@djt002 ~]# service iptables stop     //临时关闭防火墙
+[root@djt002 ~]# service iptables status
+iptables: Firewall is not running.
+//查看防火墙状态
+===

@@ -1,0 +1,12 @@
+（101）bin/hbase-daemon.sh start master
+（101.102.103）bin/hbase-daemon.sh start regionserver
+
+============================================
+
+群起
+bin/start-hbase.sh(在哪输入，master在哪)
+bin/stop-hbase.sh
+
+=====
+网页
+hadoop101:16010

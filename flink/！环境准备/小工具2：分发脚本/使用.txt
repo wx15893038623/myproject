@@ -1,0 +1,19 @@
+chmod 777 xsync
+================
+yum -y install rsync  
+
+#启动rsync服务
+systemctl start rsyncd.service
+systemctl enable rsyncd.service
+
+#检查是否已经成功启动
+netstat -lnp|grep 873
+
+安装好就能用
+=================
+无法安装rsync  
+
+vi  /etc/yum.repos.d/CentOS-Base.repo
+然后输入yum list进行测试
+======================
+xsync放在/bin

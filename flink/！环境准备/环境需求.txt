@@ -1,0 +1,24 @@
+3服务器
+
+jdk
+hadoop
+zookeeper
+hbase
+kafka
+phoenix
+=======
+启动
+(101)sbin/start-dfs.sh
+(102)sbin/start-yarn.sh
+
+(101 102 103)bin/zkServer.sh start
+
+(101 102 103)bin/kafka-server-start.sh -daemon config/server.properties
+
+(101)bin/start-hbase.sh
+
+(101)phoenix/bin/sqlline.py hadoop101,hadoop102,hadoop103
+=======
+网页
+(hadoop)hadoop101:50070
+(hbase)hadoop101:16010

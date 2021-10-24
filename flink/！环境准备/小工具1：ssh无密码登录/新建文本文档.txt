@@ -1,0 +1,4 @@
+~/.ssh$ ssh-keygen -t rsa
+~/.ssh$ ssh-copy-id hadoop102(自己也要101，102，103)
+
+nn节点做一次，rm节点做一次，101root用户做一次
